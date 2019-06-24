@@ -1,0 +1,141 @@
+body {
+    background: white;
+}
+
+.container{
+    padding: 30px;
+    margin-bottom:20%;
+}
+
+/* style du formulaires */
+form {
+    border: 1px solid #f1f1f1;
+    background: #fff;
+}
+
+
+input[type=text], input[type=password] , input[type=mail] { /* Style du champ de type pasword et text */
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {  /* style des bouttons de soummission de formulaire */
+    background-color: #3871bc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #5c8faf;
+    border: 1px solid #2c54af;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #3871bc;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    color: #b5bfff;
+}
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+aside {
+    padding-right: 60px;
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+    font-style: italic;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    background: #3871bc;
+    color: white;
+    text-align: center;
+}
+
+/* Style des images  */
+img{
+    padding: 10px;
+    border:1px solid #ccc;
+    box-shadow: 0px 0px 17px #BBB;
+}
+
+.photo:hover{ /* Quand on passe la souris sur une classe photo */
+    transform: scale(1.5); /* je zoom l'image */
+}
+
+fieldset.inline {
+    display: inline;
+    width:0px
+}
+
+/* Style du tableau d'etudiant  */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 {
+    width: 100%;
+    background-color: #e0e1ff;
+}
